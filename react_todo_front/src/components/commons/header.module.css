@@ -1,0 +1,34 @@
+.header {
+  background-image: linear-gradient(20deg, #e9defa 0%, #fbfcdb 100%);
+  padding: 20px;
+}
+
+.header > div {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  gap: 100px;
+  align-items: center;
+}
+
+.site_logo > a {
+  text-decoration: none;
+  color: var(--color3);
+  font-size: 32px;
+  font-weight: 900;
+}
+
+.nav {
+  display: flex;
+  gap: 20px;
+}
+
+.nav > a {
+  text-decoration: none;
+  color: rgb(134, 94, 172);
+  font-size: 18px;
+}
+
+.nav > a:hover {
+  font-weight: 900;
+}
